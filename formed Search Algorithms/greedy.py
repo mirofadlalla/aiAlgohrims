@@ -3,7 +3,7 @@ import heapq
 def reconstrate_pah(start , node , parent): # we say that it me want to find a path not from root only but somewehre in gaph so that wee pass the goal
     path = []
     #path.append(goal)  # Add the goal node to the path
-    while node is not None and start != node :
+    while node is not None and start != node : # we can only use node is not None becuz the parent of the start node is always None even if the start node is the goal node
         path.append(node)
         node = parent[node]
 
