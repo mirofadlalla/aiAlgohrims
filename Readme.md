@@ -56,8 +56,8 @@ Informed search algorithms use **heuristics**—domain-specific knowledge—to g
 
 We’ve completed the **Uninformed Search** algorithms. Next, we dive into **Informed Search**, starting with:
 
-- [ ] Greedy Best-First Search  
-- [ ] A\* Search  
+- [ ] Greedy Best-First Search  => Done ✅
+- [ ] A\* Search  => Done ✅
 - [ ] Iterative Deepening A\*
 
 Stay tuned for implementations, visualizations, and comparisons!
